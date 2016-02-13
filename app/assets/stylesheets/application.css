@@ -3,12 +3,12 @@ body {
   background-color: #D0D0D0;
 }
 
-.welcome {
+h1 {
   background-color: #339999;
-  width: 770px;
   text-align: center;
   margin: auto;
   border-radius: 3px;
+  margin-bottom: 15px;
 }
 
 ul.tweet { list-style: none;
@@ -19,7 +19,7 @@ ul.tweet { list-style: none;
     display: block;
     margin-top: 10px;
     width: 300px;
-    height: 100px;
+    height: auto;
     background-color: aqua;
     border: 3px solid black;
     border-radius: 5px;

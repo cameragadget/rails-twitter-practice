@@ -4,7 +4,7 @@
 
   <div>
     <%= f.label :message%>
-    <%= f.text_field :message%>
+    <%= f.text_field :message, :maxlength => 100, :size => 50 %>
   </div>
 
   <div>
@@ -13,8 +13,8 @@
   </div>
 
 
-<%= f.submit "Tweet that elloquent knowledge!" %>
+<p><%= f.submit "Tweet that elloquent knowledge!" %></p>
 
 <% end %>
 
-<%= link_to "Show me some new tweets!", tweets_path %>
+<p><%= link_to "Show me some new tweets!", tweets_path %></p>

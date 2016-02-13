@@ -5,9 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-# Tweet.destroy_all
+Tweet.destroy_all
 
 tweets = Tweet.create([
     {message: "First!!!!", user: "FirstTweetingMF"},
-    {message: "Aww, shit, you suck @FirstWeetingMF", user: "JealousKarmaWhore"}
+    {message: "Aww, shit, you suck @FirstTweetingMF", user: "JealousKarmaWhore"}
   ])
