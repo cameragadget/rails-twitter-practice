@@ -1,0 +1,9 @@
+<h1>Welcome to Chitter! Here's what's trending right now!</h1>
+
+<ul>
+    <% @tweets.each do |tweet| %>
+        <li>
+            <strong> <%= tweet.message %> </strong> - <%= tweet.user %>
+        </li>
+    <% end %>
+</ul>
