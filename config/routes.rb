@@ -6,7 +6,11 @@ get "tweets/new" => "tweets#new", as: :new_tweet
 
 post "tweets/" => "tweets#create"
 
-get "tweets/:id/edit" => "tweets#edit, as: :edit_tweet"
+get "tweets/:id/edit" => "tweets#edit", as: :edit_tweet
+
+patch "tweets/:id" => "tweets#update"
+
+delete "tweets/:id" => "tweets#destroy"
 
 get "tweets/:id" => "tweets#show", as: :tweet
 
