@@ -1,6 +1,12 @@
-<h1> <%= @tweet.message %> </h1>
+<h1> Up close and personal with your tweet! </h1>
 
-<p>posted by @<%= @tweet.user %></p>
+<ul class="tweet">
+  <li>
+    <p><strong><%= @tweet.message %></strong></p>
+    <p>posted by @<%= @tweet.user %></p>
+  </li>
+</ul>
+
 
 <%= link_to "Make a mistake? Edit your tweet!", edit_tweet_path %>
 
